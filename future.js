@@ -1,7 +1,7 @@
 // script.js
 
 function predict() {
-    const responses = ["Sim", "Não", "Talvez", "Provavelmente não", "Sim, mas depende", "Eu não sei, tente de novo", "É incerto"];
+    const responses = ["Sim", "Não", "Talvez", "Provavelmente não", "Sim, mas não do jeito que você espera.", "Eu não sei, tente de novo", "É incerto"];
     
     // Obter a pergunta digitada pelo usuário (opcional, mas podemos usar a pergunta para alguma outra coisa no futuro)
     const question = document.getElementById("question").value;
